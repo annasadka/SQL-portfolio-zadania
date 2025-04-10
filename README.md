@@ -1,121 +1,228 @@
-# SQL-queries
+## 📋 Przegląd projektu
+Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących różne umiejętności - od podstaw do zaawansowanych technik. Skrypty są ponumerowane w kolejności rosnącej złożoności.# 💾 SQL Portfolio - Plan zadań
 
-## query1.sql: Tworzenie bazy danych i struktur tabel
+## ✅ Cele projektu
 
-* Utwórz bazę danych sklep_internetowy
-* Utwórz tabele:
+- [ ] Zrozumienie podstaw baz danych relacyjnych
+- [ ] Opanowanie podstawowych operacji SQL
+- [ ] Umiejętność tworzenia złożonych zapytań
+- [ ] Posługiwanie się zaawansowanymi funkcjami SQL Server
+- [ ] Stworzenie portfolio pokazującego umiejętności SQL
 
-  * klienci (id, imie, nazwisko, email, data_rejestracji, wiek)
-  * kategorie (id, nazwa, opis)
+## 📚 Materiały źródłowe
 
-<br>
+- [Microsoft SQL Server Documentation](https://docs.microsoft.com/en-us/sql/)
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+- [SQL Server Tutorial](https://www.sqlservertutorial.net/)
 
-## query2.sql: Operacje CRUD na danych
+---
 
-Wstawianie danych do tabeli klienci
-Aktualizacja danych klienta
-Usuwanie wybranego klienta
-Wyświetlenie wszystkich klientów
+## 🔍 Skrypty i ich zawartość
 
-## query3.sql: Modyfikacje struktury tabel
+### 📝 script01.sql: Tworzenie bazy danych i struktur tabel
+> *Podstawy tworzenia i definiowania struktur danych*
 
-Dodanie nowej kolumny telefon do tabeli klienci
-Zmiana typu danych kolumny
-Usunięcie kolumny
-Dodanie kolumny z domyślną wartością
+- Utworzenie bazy danych `sklep_internetowy`
+- Utworzenie tabel:
+  - `klienci` (id, imie, nazwisko, email, data_rejestracji, wiek)
+  - `kategorie` (id, nazwa, opis)
+- Definiowanie ograniczeń i relacji
 
-## query4.sql: Podstawowe zapytania SELECT z warunkami
 
-Wyświetlanie klientów, którzy mają wiek poniżej 30 lat
-Wyświetlanie klientów, którzy zarejestrowali się po określonej dacie
-Aktualizacja wieku klientów
-Wyświetlanie klientów, których wiek jest różny od 25
 
-## query5.sql: Zaawansowane warunki filtrowania
+---
 
-Użycie operatora BETWEEN dla wieku
-Użycie operatora IN dla imion klientów
-Użycie operatora LIKE do wyszukiwania wzorców w nazwiskach
-Użycie operatorów IS NULL i IS NOT NULL
+### 📝 script02.sql: Operacje CRUD na danych
+> *Podstawowe operacje na danych w bazie*
 
-## query6.sql: Operatory logiczne
+- [x] Wstawianie danych do tabeli `klienci`
+- [x] Aktualizacja danych klienta
+- [x] Usuwanie wybranego klienta
+- [x] Wyświetlenie wszystkich klientów
 
-Użycie AND do filtrowania wyników
-Użycie OR do łączenia warunków
-Użycie NOT dla negacji warunków
 
-## query7.sql: Sortowanie wyników
 
-Sortowanie klientów według wieku rosnąco (ASC)
-Sortowanie klientów według daty rejestracji malejąco (DESC)
-Sortowanie z wieloma kolumnami
-Filtrowanie i sortowanie w jednym zapytaniu
+---
 
-## query8.sql: Nowa tabela i relacje
+### 📝 script03.sql: Modyfikacje struktury tabel
+> *Zarządzanie strukturą istniejących tabel*
 
-Tworzenie tabeli produkty (id, nazwa, cena, id_kategorii, dostepna_ilosc)
-Dodawanie produktów
-Aktualizacja produktów
-Wyświetlanie produktów z różnymi warunkami filtrowania
+- Dodanie nowej kolumny `telefon` do tabeli `klienci`
+- Zmiana typu danych kolumny
+- Usunięcie kolumny
+- Dodanie kolumny z domyślną wartością
 
-## query9.sql: Funkcje agregujące i grupowanie
+---
 
-Liczenie klientów (COUNT)
-Znajdowanie średniego wieku klientów (AVG)
-Znajdowanie najwyższej i najniższej ceny produktów (MAX, MIN)
-Sumowanie dostępnych ilości produktów (SUM)
-Grupowanie według kategorii (GROUP BY)
-Filtrowanie grup (HAVING)
+### 📝 script04.sql: Podstawowe zapytania SELECT z warunkami
+> *Filtrowanie danych przy użyciu podstawowych operatorów*
 
-## query10.sql: Funkcje tekstowe i matematyczne
+| Operator | Opis | Przykład |
+|----------|------|----------|
+| `=` | Równość | `WHERE wiek = 25` |
+| `>` | Większe niż | `WHERE wiek > 30` |
+| `<` | Mniejsze niż | `WHERE wiek < 20` |
+| `!=` | Nierówność | `WHERE wiek != 25` |
 
-Użycie funkcji CONCAT do łączenia imienia i nazwiska
-Użycie funkcji UPPER i LOWER do zmiany wielkości liter
-Użycie funkcji matematycznych (ROUND, ABS)
-Użycie funkcji do formatowania dat
+- Wyświetlanie klientów, którzy mają wiek poniżej 30 lat
+- Wyświetlanie klientów, którzy zarejestrowali się po określonej dacie
+- Aktualizacja wieku klientów
+- Wyświetlanie klientów, których wiek jest różny od 25
 
-## query11.sql: Podzapytania i widoki
+---
 
-Tworzenie podzapytań
-Tworzenie widoku dla najnowszych klientów
-Tworzenie widoku dla najdroższych produktów
-Wyświetlanie danych z widoków
+### 📝 script05.sql: Zaawansowane warunki filtrowania
+> *Zaawansowane techniki filtrowania danych*
 
-## query12.sql: Wyrażenia regularne
+- Użycie operatora BETWEEN dla wieku
+- Użycie operatora IN dla imion klientów
+- Użycie operatora LIKE do wyszukiwania wzorców w nazwiskach 
+- Użycie operatorów IS NULL i IS NOT NULL
 
-Wyszukiwanie klientów według wzorców w emailach
-Wyszukiwanie produktów według wzorców w nazwach
 
-## query13.sql: Łączenie tabel (JOIN)
 
-Tworzenie tabeli zamowienia (id, id_klienta, data_zamowienia)
-Tworzenie tabeli zamowienia_szczegoly (id, id_zamowienia, id_produktu, ilosc)
-Użycie LEFT JOIN
-Użycie RIGHT JOIN
-Użycie INNER JOIN
+---
 
-## query14.sql: Łączenie trzech tabel
+### 📝 script06.sql: Operatory logiczne
+> *Łączenie warunków przy użyciu operatorów logicznych*
 
-Łączenie tabel zamowienia, klienci i produkty
-Wyświetlanie pełnych danych zamówienia
+- Użycie AND do filtrowania wyników
+- Użycie OR do łączenia warunków
+- Użycie NOT dla negacji warunków
 
-## query15.sql: Wyzwalacze (Triggers)
+---
 
-Tworzenie triggerów do automatycznej aktualizacji stanu magazynowego
+### 📝 script07.sql: Sortowanie wyników
+> *Organizowanie wyników zapytań*
 
-## query16.sql: Procedury składowane
+- Sortowanie klientów według wieku rosnąco (ASC)
+- Sortowanie klientów według daty rejestracji malejąco (DESC)
+- Sortowanie z wieloma kolumnami
+- Filtrowanie i sortowanie w jednym zapytaniu
 
-Tworzenie procedury do wyszukiwania klientów
-Tworzenie procedury do dodawania nowego zamówienia
+---
 
-## query17.sql: Praktyczne zadanie
+### 📝 script08.sql: Nowa tabela i relacje
+> *Tworzenie powiązanych struktur danych*
 
-Stworzenie pełnej analizy sprzedaży
-Znajdowanie najlepszych klientów
-Znajdowanie najpopularniejszych produktów
+- Tworzenie tabeli `produkty` (id, nazwa, cena, id_kategorii, dostepna_ilosc)
+- Dodawanie produktów
+- Aktualizacja produktów
+- Wyświetlanie produktów z różnymi warunkami filtrowania
 
-## query18.sql: Kompleksowe zadanie z procedurami i triggerami
+---
 
-Tworzenie systemu obsługi zamówień
-Zarządzanie stanem magazynowym
-Raportowanie sprzedaży
+### 📝 script09.sql: Funkcje agregujące i grupowanie
+> *Analizowanie i podsumowywanie danych*
+
+Funkcje agregujące:
+- 🔢 COUNT - liczenie rekordów
+- 📊 AVG - średnia wartość
+- 📈 MAX - wartość maksymalna
+- 📉 MIN - wartość minimalna
+- 💰 SUM - suma wartości
+
+Przykłady:
+- Liczenie klientów (COUNT)
+- Znajdowanie średniego wieku klientów (AVG)
+- Znajdowanie najwyższej i najniższej ceny produktów (MAX, MIN)
+- Sumowanie dostępnych ilości produktów (SUM)
+- Grupowanie według kategorii (GROUP BY)
+- Filtrowanie grup (HAVING)
+
+---
+
+### 📝 script10.sql: Funkcje tekstowe i matematyczne
+> *Manipulowanie i formatowanie danych*
+
+- Użycie funkcji CONCAT do łączenia imienia i nazwiska
+- Użycie funkcji UPPER i LOWER do zmiany wielkości liter
+- Użycie funkcji matematycznych (ROUND, ABS)
+- Użycie funkcji do formatowania dat
+
+---
+
+### 📝 script11.sql: Podzapytania i widoki
+> *Zaawansowane techniki zapytań i wirtualne tabele*
+
+- Tworzenie podzapytań
+- Tworzenie widoku dla najnowszych klientów
+- Tworzenie widoku dla najdroższych produktów
+- Wyświetlanie danych z widoków
+
+---
+
+### 📝 script12.sql: Wyrażenia regularne
+> *Zaawansowane wzorce wyszukiwania*
+
+- Wyszukiwanie klientów według wzorców w emailach
+- Wyszukiwanie produktów według wzorców w nazwach
+
+---
+
+### 📝 script13.sql: Łączenie tabel (JOIN)
+> *Relacyjne łączenie danych z różnych tabel*
+
+- Tworzenie tabeli `zamowienia` (id, id_klienta, data_zamowienia)
+- Tworzenie tabeli `zamowienia_szczegoly` (id, id_zamowienia, id_produktu, ilosc)
+- Użycie LEFT JOIN
+- Użycie RIGHT JOIN
+- Użycie INNER JOIN
+
+Wizualna reprezentacja typów JOIN:
+
+![JOIN Diagram](https://i.stack.imgur.com/4zjxm.png)
+
+---
+
+### 📝 script14.sql: Łączenie trzech tabel
+> *Zaawansowane łączenie wielu tabel*
+
+- Łączenie tabel `zamowienia`, `klienci` i `produkty`
+- Wyświetlanie pełnych danych zamówienia
+
+---
+
+### 📝 script15.sql: Wyzwalacze (Triggers)
+> *Automatyczne reakcje na zmiany w danych*
+
+- Tworzenie triggerów do automatycznej aktualizacji stanu magazynowego
+- Przykład: zmniejszanie stanu magazynowego po dodaniu nowego zamówienia
+
+---
+
+### 📝 script16.sql: Procedury składowane
+> *Predefiniowane operacje bazodanowe*
+
+- Tworzenie procedury do wyszukiwania klientów
+- Tworzenie procedury do dodawania nowego zamówienia
+
+
+
+---
+
+### 📝 script17.sql: Praktyczne zadanie analityczne
+> *Zaawansowana analiza danych sprzedażowych*
+
+- Stworzenie pełnej analizy sprzedaży
+- Znajdowanie najlepszych klientów
+- Znajdowanie najpopularniejszych produktów
+
+---
+
+### 📝 script18.sql: Kompleksowe zadanie z procedurami i triggerami
+> *Kompletny system zarządzania zamówieniami*
+
+- Tworzenie systemu obsługi zamówień
+- Zarządzanie stanem magazynowym
+- Raportowanie sprzedaży
+
+---
+
+
+
+---
+
+
+
+*Ostatnia aktualizacja: Kwiecień 2025*
