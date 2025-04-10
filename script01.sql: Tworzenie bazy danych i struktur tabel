@@ -1,12 +1,8 @@
-```sql
-
 CREATE DATABASE sklep_internetowy;
 
 CREATE TABLE klienci (
     id INT IDENTITY(1,1) PRIMARY KEY,
     imie NVARCHAR(50) NOT NULL,
     nazwisko NVARCHAR(50) NOT NULL
- 
+    -- ... pozostałe kolumny
 );
-
-```
