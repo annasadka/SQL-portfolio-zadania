@@ -1,3 +1,4 @@
+```sql
 CREATE DATABASE sklep_internetowy;
 
 CREATE TABLE klienci (
@@ -6,3 +7,4 @@ CREATE TABLE klienci (
     nazwisko NVARCHAR(50) NOT NULL
  
 );
+```
