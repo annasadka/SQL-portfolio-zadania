@@ -32,7 +32,6 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Definiowanie ograniczeń i relacji
 
 <br>
-
 ---
 <br>
 
