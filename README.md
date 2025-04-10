@@ -18,6 +18,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - [SQL Server Tutorial](https://www.sqlservertutorial.net/)
 
 ---
+<br>
 
 ## 🔍 Skrypty i ich zawartość
 
@@ -30,9 +31,10 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
   - `kategorie` (id, nazwa, opis)
 - Definiowanie ograniczeń i relacji
 
-
+<br>
 
 ---
+<br>
 
 ## 📝 script02.sql: Operacje CRUD na danych
 > *Podstawowe operacje na danych w bazie*
@@ -43,8 +45,9 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - [x] Wyświetlenie wszystkich klientów
 
 
-
+<br>
 ---
+<br>
 
 ## 📝 script03.sql: Modyfikacje struktury tabel
 > *Zarządzanie strukturą istniejących tabel*
@@ -53,8 +56,10 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Zmiana typu danych kolumny
 - Usunięcie kolumny
 - Dodanie kolumny z domyślną wartością
-
+- 
+<br>
 ---
+<br>
 
 ## 📝 script04.sql: Podstawowe zapytania SELECT z warunkami
 > *Filtrowanie danych przy użyciu podstawowych operatorów*
@@ -71,7 +76,9 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Aktualizacja wieku klientów
 - Wyświetlanie klientów, których wiek jest różny od 25
 
+<br>
 ---
+<br>
 
 ## 📝 script05.sql: Zaawansowane warunki filtrowania
 > *Zaawansowane techniki filtrowania danych*
@@ -82,8 +89,9 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Użycie operatorów IS NULL i IS NOT NULL
 
 
-
+<br>
 ---
+<br>
 
 ## 📝 script06.sql: Operatory logiczne
 > *Łączenie warunków przy użyciu operatorów logicznych*
@@ -92,7 +100,9 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Użycie OR do łączenia warunków
 - Użycie NOT dla negacji warunków
 
+<br>
 ---
+<br>
 
 ## 📝 script07.sql: Sortowanie wyników
 > *Organizowanie wyników zapytań*
@@ -102,7 +112,9 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Sortowanie z wieloma kolumnami
 - Filtrowanie i sortowanie w jednym zapytaniu
 
+<br>
 ---
+<br>
 
 ## 📝 script08.sql: Nowa tabela i relacje
 > *Tworzenie powiązanych struktur danych*
@@ -112,7 +124,9 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Aktualizacja produktów
 - Wyświetlanie produktów z różnymi warunkami filtrowania
 
+<br>
 ---
+<br>
 
 ## 📝 script09.sql: Funkcje agregujące i grupowanie
 > *Analizowanie i podsumowywanie danych*
@@ -132,7 +146,9 @@ Przykłady:
 - Grupowanie według kategorii (GROUP BY)
 - Filtrowanie grup (HAVING)
 
+<br>
 ---
+<br>
 
 ## 📝 script10.sql: Funkcje tekstowe i matematyczne
 > *Manipulowanie i formatowanie danych*
@@ -142,7 +158,9 @@ Przykłady:
 - Użycie funkcji matematycznych (ROUND, ABS)
 - Użycie funkcji do formatowania dat
 
+<br>
 ---
+<br>
 
 ## 📝 script11.sql: Podzapytania i widoki
 > *Zaawansowane techniki zapytań i wirtualne tabele*
@@ -152,7 +170,9 @@ Przykłady:
 - Tworzenie widoku dla najdroższych produktów
 - Wyświetlanie danych z widoków
 
+<br>
 ---
+<br>
 
 ## 📝 script12.sql: Wyrażenia regularne
 > *Zaawansowane wzorce wyszukiwania*
@@ -160,7 +180,9 @@ Przykłady:
 - Wyszukiwanie klientów według wzorców w emailach
 - Wyszukiwanie produktów według wzorców w nazwach
 
+<br>
 ---
+<br>
 
 ## 📝 script13.sql: Łączenie tabel (JOIN)
 > *Relacyjne łączenie danych z różnych tabel*
@@ -175,7 +197,9 @@ Wizualna reprezentacja typów JOIN:
 
 ![JOIN Diagram](https://i.stack.imgur.com/4zjxm.png)
 
+<br>
 ---
+<br>
 
 ## 📝 script14.sql: Łączenie trzech tabel
 > *Zaawansowane łączenie wielu tabel*
@@ -183,7 +207,9 @@ Wizualna reprezentacja typów JOIN:
 - Łączenie tabel `zamowienia`, `klienci` i `produkty`
 - Wyświetlanie pełnych danych zamówienia
 
+<br>
 ---
+<br>
 
 ## 📝 script15.sql: Wyzwalacze (Triggers)
 > *Automatyczne reakcje na zmiany w danych*
@@ -191,7 +217,9 @@ Wizualna reprezentacja typów JOIN:
 - Tworzenie triggerów do automatycznej aktualizacji stanu magazynowego
 - Przykład: zmniejszanie stanu magazynowego po dodaniu nowego zamówienia
 
+<br>
 ---
+<br>
 
 ## 📝 script16.sql: Procedury składowane
 > *Predefiniowane operacje bazodanowe*
@@ -200,8 +228,9 @@ Wizualna reprezentacja typów JOIN:
 - Tworzenie procedury do dodawania nowego zamówienia
 
 
-
+<br>
 ---
+<br>
 
 ## 📝 script17.sql: Praktyczne zadanie analityczne
 > *Zaawansowana analiza danych sprzedażowych*
@@ -210,7 +239,9 @@ Wizualna reprezentacja typów JOIN:
 - Znajdowanie najlepszych klientów
 - Znajdowanie najpopularniejszych produktów
 
+<br>
 ---
+<br>
 
 ## 📝 script18.sql: Kompleksowe zadanie z procedurami i triggerami
 > *Kompletny system zarządzania zamówieniami*
@@ -219,10 +250,10 @@ Wizualna reprezentacja typów JOIN:
 - Zarządzanie stanem magazynowym
 - Raportowanie sprzedaży
 
+<br>
 ---
+<br>
 
 
-
----
 
 
