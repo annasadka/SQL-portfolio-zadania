@@ -20,7 +20,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 ---
 <br>
 
-## 🔍 Skrypty i ich zawartość
+# 🔍 Skrypty i ich zawartość
 
 ## 📝 script01.sql: Tworzenie bazy danych i struktur tabel
 > *Podstawy tworzenia i definiowania struktur danych*
@@ -32,7 +32,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Definiowanie ograniczeń i relacji
 
 <br>
----
+
 <br>
 
 ## 📝 script02.sql: Operacje CRUD na danych
@@ -45,7 +45,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 
 <br>
----
+
 <br>
 
 ## 📝 script03.sql: Modyfikacje struktury tabel
@@ -55,9 +55,9 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Zmiana typu danych kolumny
 - Usunięcie kolumny
 - Dodanie kolumny z domyślną wartością
-- 
+ 
 <br>
----
+
 <br>
 
 ## 📝 script04.sql: Podstawowe zapytania SELECT z warunkami
@@ -76,7 +76,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Wyświetlanie klientów, których wiek jest różny od 25
 
 <br>
----
+
 <br>
 
 ## 📝 script05.sql: Zaawansowane warunki filtrowania
@@ -89,7 +89,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 
 <br>
----
+
 <br>
 
 ## 📝 script06.sql: Operatory logiczne
@@ -100,7 +100,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Użycie NOT dla negacji warunków
 
 <br>
----
+
 <br>
 
 ## 📝 script07.sql: Sortowanie wyników
@@ -112,7 +112,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Filtrowanie i sortowanie w jednym zapytaniu
 
 <br>
----
+
 <br>
 
 ## 📝 script08.sql: Nowa tabela i relacje
@@ -124,7 +124,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - Wyświetlanie produktów z różnymi warunkami filtrowania
 
 <br>
----
+
 <br>
 
 ## 📝 script09.sql: Funkcje agregujące i grupowanie
@@ -146,7 +146,7 @@ Przykłady:
 - Filtrowanie grup (HAVING)
 
 <br>
----
+
 <br>
 
 ## 📝 script10.sql: Funkcje tekstowe i matematyczne
@@ -158,7 +158,7 @@ Przykłady:
 - Użycie funkcji do formatowania dat
 
 <br>
----
+
 <br>
 
 ## 📝 script11.sql: Podzapytania i widoki
@@ -170,7 +170,7 @@ Przykłady:
 - Wyświetlanie danych z widoków
 
 <br>
----
+
 <br>
 
 ## 📝 script12.sql: Wyrażenia regularne
@@ -180,7 +180,7 @@ Przykłady:
 - Wyszukiwanie produktów według wzorców w nazwach
 
 <br>
----
+
 <br>
 
 ## 📝 script13.sql: Łączenie tabel (JOIN)
@@ -194,10 +194,10 @@ Przykłady:
 
 Wizualna reprezentacja typów JOIN:
 
-![JOIN Diagram](https://i.stack.imgur.com/4zjxm.png)
+<img src="https://i.stack.imgur.com/4zjxm.png" alt="JOIN Diagram" width="50%">
 
 <br>
----
+
 <br>
 
 ## 📝 script14.sql: Łączenie trzech tabel
