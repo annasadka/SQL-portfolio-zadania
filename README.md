@@ -1,4 +1,6 @@
-## 📋 Przegląd projektu
+
+
+# 📋 Przegląd projektu
 Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących różne umiejętności - od podstaw do zaawansowanych technik. Skrypty są ponumerowane w kolejności rosnącej złożoności.# 💾 SQL Portfolio - Plan zadań
 
 ## ✅ Cele projektu
@@ -19,7 +21,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ## 🔍 Skrypty i ich zawartość
 
-### 📝 script01.sql: Tworzenie bazy danych i struktur tabel
+## 📝 script01.sql: Tworzenie bazy danych i struktur tabel
 > *Podstawy tworzenia i definiowania struktur danych*
 
 - Utworzenie bazy danych `sklep_internetowy`
@@ -32,7 +34,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script02.sql: Operacje CRUD na danych
+## 📝 script02.sql: Operacje CRUD na danych
 > *Podstawowe operacje na danych w bazie*
 
 - [x] Wstawianie danych do tabeli `klienci`
@@ -44,7 +46,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script03.sql: Modyfikacje struktury tabel
+## 📝 script03.sql: Modyfikacje struktury tabel
 > *Zarządzanie strukturą istniejących tabel*
 
 - Dodanie nowej kolumny `telefon` do tabeli `klienci`
@@ -54,7 +56,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script04.sql: Podstawowe zapytania SELECT z warunkami
+## 📝 script04.sql: Podstawowe zapytania SELECT z warunkami
 > *Filtrowanie danych przy użyciu podstawowych operatorów*
 
 | Operator | Opis | Przykład |
@@ -71,7 +73,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script05.sql: Zaawansowane warunki filtrowania
+## 📝 script05.sql: Zaawansowane warunki filtrowania
 > *Zaawansowane techniki filtrowania danych*
 
 - Użycie operatora BETWEEN dla wieku
@@ -83,7 +85,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script06.sql: Operatory logiczne
+## 📝 script06.sql: Operatory logiczne
 > *Łączenie warunków przy użyciu operatorów logicznych*
 
 - Użycie AND do filtrowania wyników
@@ -92,7 +94,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script07.sql: Sortowanie wyników
+## 📝 script07.sql: Sortowanie wyników
 > *Organizowanie wyników zapytań*
 
 - Sortowanie klientów według wieku rosnąco (ASC)
@@ -102,7 +104,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script08.sql: Nowa tabela i relacje
+## 📝 script08.sql: Nowa tabela i relacje
 > *Tworzenie powiązanych struktur danych*
 
 - Tworzenie tabeli `produkty` (id, nazwa, cena, id_kategorii, dostepna_ilosc)
@@ -112,7 +114,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 
 ---
 
-### 📝 script09.sql: Funkcje agregujące i grupowanie
+## 📝 script09.sql: Funkcje agregujące i grupowanie
 > *Analizowanie i podsumowywanie danych*
 
 Funkcje agregujące:
@@ -132,7 +134,7 @@ Przykłady:
 
 ---
 
-### 📝 script10.sql: Funkcje tekstowe i matematyczne
+## 📝 script10.sql: Funkcje tekstowe i matematyczne
 > *Manipulowanie i formatowanie danych*
 
 - Użycie funkcji CONCAT do łączenia imienia i nazwiska
@@ -142,7 +144,7 @@ Przykłady:
 
 ---
 
-### 📝 script11.sql: Podzapytania i widoki
+## 📝 script11.sql: Podzapytania i widoki
 > *Zaawansowane techniki zapytań i wirtualne tabele*
 
 - Tworzenie podzapytań
@@ -152,7 +154,7 @@ Przykłady:
 
 ---
 
-### 📝 script12.sql: Wyrażenia regularne
+## 📝 script12.sql: Wyrażenia regularne
 > *Zaawansowane wzorce wyszukiwania*
 
 - Wyszukiwanie klientów według wzorców w emailach
@@ -160,7 +162,7 @@ Przykłady:
 
 ---
 
-### 📝 script13.sql: Łączenie tabel (JOIN)
+## 📝 script13.sql: Łączenie tabel (JOIN)
 > *Relacyjne łączenie danych z różnych tabel*
 
 - Tworzenie tabeli `zamowienia` (id, id_klienta, data_zamowienia)
@@ -175,7 +177,7 @@ Wizualna reprezentacja typów JOIN:
 
 ---
 
-### 📝 script14.sql: Łączenie trzech tabel
+## 📝 script14.sql: Łączenie trzech tabel
 > *Zaawansowane łączenie wielu tabel*
 
 - Łączenie tabel `zamowienia`, `klienci` i `produkty`
@@ -183,7 +185,7 @@ Wizualna reprezentacja typów JOIN:
 
 ---
 
-### 📝 script15.sql: Wyzwalacze (Triggers)
+## 📝 script15.sql: Wyzwalacze (Triggers)
 > *Automatyczne reakcje na zmiany w danych*
 
 - Tworzenie triggerów do automatycznej aktualizacji stanu magazynowego
@@ -191,7 +193,7 @@ Wizualna reprezentacja typów JOIN:
 
 ---
 
-### 📝 script16.sql: Procedury składowane
+## 📝 script16.sql: Procedury składowane
 > *Predefiniowane operacje bazodanowe*
 
 - Tworzenie procedury do wyszukiwania klientów
@@ -201,7 +203,7 @@ Wizualna reprezentacja typów JOIN:
 
 ---
 
-### 📝 script17.sql: Praktyczne zadanie analityczne
+## 📝 script17.sql: Praktyczne zadanie analityczne
 > *Zaawansowana analiza danych sprzedażowych*
 
 - Stworzenie pełnej analizy sprzedaży
@@ -210,7 +212,7 @@ Wizualna reprezentacja typów JOIN:
 
 ---
 
-### 📝 script18.sql: Kompleksowe zadanie z procedurami i triggerami
+## 📝 script18.sql: Kompleksowe zadanie z procedurami i triggerami
 > *Kompletny system zarządzania zamówieniami*
 
 - Tworzenie systemu obsługi zamówień
@@ -224,5 +226,3 @@ Wizualna reprezentacja typów JOIN:
 ---
 
 
-
-*Ostatnia aktualizacja: Kwiecień 2025*
