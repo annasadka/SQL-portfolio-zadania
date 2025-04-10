@@ -8,7 +8,7 @@
   * klienci (id, imie, nazwisko, email, data_rejestracji, wiek)
   * kategorie (id, nazwa, opis)
 
-
+<br>
 
 ## query2.sql: Operacje CRUD na danych
 
