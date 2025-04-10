@@ -17,7 +17,7 @@ Jest to mój plan nauki SQL, zawierający serię skryptów demonstrujących ró�
 - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
 - [SQL Server Tutorial](https://www.sqlservertutorial.net/)
 
----
+
 <br>
 
 # 🔍 Skrypty i ich zawartość
@@ -207,7 +207,7 @@ Wizualna reprezentacja typów JOIN:
 - Wyświetlanie pełnych danych zamówienia
 
 <br>
----
+
 <br>
 
 ## 📝 script15.sql: Wyzwalacze (Triggers)
@@ -217,7 +217,7 @@ Wizualna reprezentacja typów JOIN:
 - Przykład: zmniejszanie stanu magazynowego po dodaniu nowego zamówienia
 
 <br>
----
+
 <br>
 
 ## 📝 script16.sql: Procedury składowane
@@ -228,7 +228,7 @@ Wizualna reprezentacja typów JOIN:
 
 
 <br>
----
+
 <br>
 
 ## 📝 script17.sql: Praktyczne zadanie analityczne
@@ -239,7 +239,7 @@ Wizualna reprezentacja typów JOIN:
 - Znajdowanie najpopularniejszych produktów
 
 <br>
----
+
 <br>
 
 ## 📝 script18.sql: Kompleksowe zadanie z procedurami i triggerami
@@ -250,7 +250,7 @@ Wizualna reprezentacja typów JOIN:
 - Raportowanie sprzedaży
 
 <br>
----
+
 <br>
 
 
