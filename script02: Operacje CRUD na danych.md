@@ -1,7 +1,7 @@
-📝 script02.sql: Operacje CRUD na danych
+## 📝 script02.sql: Operacje CRUD na danych
 Podstawowe operacje na danych w bazie
 
- Wstawianie danych do tabeli klienci
- Aktualizacja danych klienta
- Usuwanie wybranego klienta
- Wyświetlenie wszystkich klientów
+ 1. Wstawianie danych do tabeli klienci
+ 2. Aktualizacja danych klienta
+ 3. Usuwanie wybranego klienta
+ 4. Wyświetlenie wszystkich klientów
