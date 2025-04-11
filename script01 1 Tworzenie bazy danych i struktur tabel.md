@@ -1,4 +1,4 @@
-📝 script01.sql: Tworzenie bazy danych i struktur tabel
+##📝 script01.sql: Tworzenie bazy danych i struktur tabel
    
 
 1. Utworzenie bazy danych `sklep_internetowy`
@@ -7,7 +7,7 @@
   - `kategorie` (id, nazwa, opis)
 3. Definiowanie ograniczeń i relacji
 
-
+```sql
 CREATE DATABASE sklep_internetowy;
 
 CREATE TABLE klienci (
@@ -24,3 +24,4 @@ CREATE TABLE kategorie (
   nazwa NVARCHAR(100) NOT NULL,
   opis NVARCHAR(MAX)
   );
+```
