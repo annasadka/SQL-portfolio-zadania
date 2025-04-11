@@ -1,4 +1,4 @@
-##📝 script01.sql: Tworzenie bazy danych i struktur tabel
+## 📝 script01.sql: Tworzenie bazy danych i struktur tabel
    
 
 1. Utworzenie bazy danych `sklep_internetowy`
