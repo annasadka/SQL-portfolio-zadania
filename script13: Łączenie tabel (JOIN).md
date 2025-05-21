@@ -1,3 +1,16 @@
+## script13.sql: Łączenie tabel (JOIN)
+
+| Relacyjne łączenie danych z różnych tabel
+
+1. Tworzenie tabeli zamowienia (id, id_klienta, data_zamowienia)
+2. Tworzenie tabeli zamowienia_szczegoly (id, id_zamowienia, id_produktu, ilosc)
+3. Użycie LEFT JOIN
+4. Użycie RIGHT JOIN
+5. Użycie INNER JOIN
+6. Wizualna reprezentacja typów JOIN:
+JOIN Diagram
+<br>
+
 ``` sql
 -- Tworzenie tabeli zamowienia
 CREATE TABLE zamowienia (
