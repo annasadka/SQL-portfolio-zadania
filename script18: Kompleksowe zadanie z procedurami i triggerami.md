@@ -1,6 +1,6 @@
-## script18.sql: Kompleksowe zadanie z procedurami i triggerami
+## 📝 script18.sql: Kompleksowe zadanie z procedurami i triggerami
 
-| Kompletny system zarządzania zamówieniami
+> *Kompletny system zarządzania zamówieniami*
 1. Tworzenie systemu obsługi zamówień
 2. Zarządzanie stanem magazynowym
 3. Raportowanie sprzedaży
