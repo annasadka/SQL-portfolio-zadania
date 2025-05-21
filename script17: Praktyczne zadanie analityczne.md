@@ -1,6 +1,6 @@
-## script17.sql: Praktyczne zadanie analityczne
+## 📝 script17.sql: Praktyczne zadanie analityczne
 
-| Zaawansowana analiza danych sprzedażowych
+> *Zaawansowana analiza danych sprzedażowych*
 
 1. Stworzenie pełnej analizy sprzedaży
 2. Znajdowanie najlepszych klientów
