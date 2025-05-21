@@ -1,6 +1,6 @@
-## script15.sql: Wyzwalacze (Triggers)
+## 📝 script15.sql: Wyzwalacze (Triggers)
 
-| Automatyczne reakcje na zmiany w danych
+> *Automatyczne reakcje na zmiany w danych*
 
 1. Tworzenie triggerów do automatycznej aktualizacji stanu magazynowego
 2. Przykład: zmniejszanie stanu magazynowego po dodaniu nowego zamówienia
