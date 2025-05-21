@@ -1,3 +1,14 @@
+## script11.sql: Podzapytania i widoki
+
+| Zaawansowane techniki zapytań i wirtualne tabele
+
+1. Tworzenie podzapytań
+2. Tworzenie widoku dla najnowszych klientów
+3. Tworzenie widoku dla najdroższych produktów
+4. Wyświetlanie danych z widoków
+
+<br>
+
 ``` sql
 -- Tworzenie podzapytań
 SELECT * FROM produkty
