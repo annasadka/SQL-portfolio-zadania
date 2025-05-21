@@ -1,3 +1,23 @@
+## 📝 script09.sql: Funkcje agregujące i grupowanie
+
+| Analizowanie i podsumowywanie danych
+
+Funkcje agregujące:<br>
+🔢 COUNT - liczenie rekordów <br>
+📊 AVG - średnia wartość <br>
+📈 MAX - wartość maksymalna <br>
+📉 MIN - wartość minimalna <br>
+💰 SUM - suma wartości <br>
+
+Przykłady:
+1. Liczenie klientów (COUNT)
+2. Znajdowanie średniego wieku klientów (AVG)
+3. Znajdowanie najwyższej i najniższej ceny produktów (MAX, MIN)
+4. Sumowanie dostępnych ilości produktów (SUM)
+5. Grupowanie według kategorii (GROUP BY)
+6. Filtrowanie grup (HAVING)
+<br>
+
 ``` sql
 -- Liczenie klientów (COUNT)
 SELECT COUNT(*) AS liczba_klientow
