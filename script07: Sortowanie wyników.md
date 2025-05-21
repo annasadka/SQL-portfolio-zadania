@@ -1,3 +1,13 @@
+📝 script07.sql: Sortowanie wyników
+
+| Organizowanie wyników zapytań
+
+1. Sortowanie klientów według wieku rosnąco (ASC)
+2. Sortowanie klientów według daty rejestracji malejąco (DESC)
+3. Sortowanie z wieloma kolumnami
+4. Filtrowanie i sortowanie w jednym zapytaniu
+ <br>
+ 
 ``` sql
 -- Sortowanie klientów według wieku rosnąco (ASC)
 SELECT * FROM klienci
