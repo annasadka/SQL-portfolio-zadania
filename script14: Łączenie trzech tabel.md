@@ -1,6 +1,6 @@
-## script14.sql: Łączenie trzech tabel
+## 📝 script14.sql: Łączenie trzech tabel
 
-| Zaawansowane łączenie wielu tabel
+> *Zaawansowane łączenie wielu tabel*
 
 1. Łączenie tabel zamowienia, klienci i produkty
 2. Wyświetlanie pełnych danych zamówienia
