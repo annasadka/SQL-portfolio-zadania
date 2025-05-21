@@ -1,6 +1,6 @@
-## script16.sql: Procedury składowane
+## 📝 script16.sql: Procedury składowane
 
-| Predefiniowane operacje bazodanowe
+> *Predefiniowane operacje bazodanowe*
 
 1. Tworzenie procedury do wyszukiwania klientów
 2. Tworzenie procedury do dodawania nowego zamówienia
