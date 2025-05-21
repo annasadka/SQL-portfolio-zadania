@@ -1,6 +1,6 @@
 ## 📝 script10.sql: Funkcje tekstowe i matematyczne
 
-| Manipulowanie i formatowanie danych
+> *Manipulowanie i formatowanie danych*
 
 1. Użycie funkcji CONCAT do łączenia imienia i nazwiska
 2. Użycie funkcji UPPER i LOWER do zmiany wielkości liter
