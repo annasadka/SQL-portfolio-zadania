@@ -1,6 +1,6 @@
 ## 📝 script08.sql: Nowa tabela i relacje
 
-| Tworzenie powiązanych struktur danych
+> *Tworzenie powiązanych struktur danych*
 
 1. Tworzenie tabeli produkty (id, nazwa, cena, id_kategorii, dostepna_ilosc)
 2. Dodawanie produktów
