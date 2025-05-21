@@ -1,6 +1,6 @@
-## script13.sql: Łączenie tabel (JOIN)
+## 📝 script13.sql: Łączenie tabel (JOIN)
 
-| Relacyjne łączenie danych z różnych tabel
+> *Relacyjne łączenie danych z różnych tabel*
 
 1. Tworzenie tabeli zamowienia (id, id_klienta, data_zamowienia)
 2. Tworzenie tabeli zamowienia_szczegoly (id, id_zamowienia, id_produktu, ilosc)
