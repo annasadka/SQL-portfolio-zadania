@@ -6,9 +6,9 @@ Podstawowe operacje na danych w bazie
  3. Usuwanie wybranego klienta
  4. Wyświetlenie wszystkich klientów
 
-sql-- 
+```sql
 
-Wstawianie danych do tabeli klienci
+-- Wstawianie danych do tabeli klienci
 INSERT INTO klienci (imie, nazwisko, email, data_rejestracji, wiek)
 VALUES ('Jan', 'Kowalski', 'jan.kowalski@example.com', '2023-01-15', 35),
        ('Anna', 'Nowak', 'anna.nowak@example.com', '2023-02-20', 28),
@@ -27,3 +27,4 @@ WHERE id = 3;
 
 -- Wyświetlenie wszystkich klientów
 SELECT * FROM klienci;
+```
