@@ -1,3 +1,13 @@
+## 📝 script08.sql: Nowa tabela i relacje
+
+| Tworzenie powiązanych struktur danych
+
+1. Tworzenie tabeli produkty (id, nazwa, cena, id_kategorii, dostepna_ilosc)
+2. Dodawanie produktów
+3. Aktualizacja produktów
+4. Wyświetlanie produktów z różnymi warunkami filtrowania
+<br>
+
 ``` sql
 -- Tworzenie tabeli produkty
 CREATE TABLE produkty (
