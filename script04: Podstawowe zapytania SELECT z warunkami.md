@@ -1,3 +1,13 @@
+## 📝 script04.sql: Podstawowe zapytania SELECT z warunkami
+
+| Filtrowanie danych przy użyciu podstawowych operatorów
+1. Wyświetlanie klientów, którzy mają wiek poniżej 30 lat
+2. Wyświetlanie klientów, którzy zarejestrowali się po określonej dacie
+3. Aktualizacja wieku klientów
+4. Wyświetlanie klientów, których wiek jest różny od 25
+
+<br>
+
 ``` sql
 -- Wyświetlanie klientów, którzy mają wiek poniżej 30 lat
 SELECT * FROM klienci
