@@ -1,6 +1,6 @@
-📝 script07.sql: Sortowanie wyników
+## 📝 script07.sql: Sortowanie wyników
 
-| Organizowanie wyników zapytań
+> *Organizowanie wyników zapytań*
 
 1. Sortowanie klientów według wieku rosnąco (ASC)
 2. Sortowanie klientów według daty rejestracji malejąco (DESC)
