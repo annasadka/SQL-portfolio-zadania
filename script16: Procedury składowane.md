@@ -1,3 +1,12 @@
+## script16.sql: Procedury składowane
+
+| Predefiniowane operacje bazodanowe
+
+1. Tworzenie procedury do wyszukiwania klientów
+2. Tworzenie procedury do dodawania nowego zamówienia
+
+<br>
+
 ``` sql
 -- Tworzenie procedury do wyszukiwania klientów
 DELIMITER //
