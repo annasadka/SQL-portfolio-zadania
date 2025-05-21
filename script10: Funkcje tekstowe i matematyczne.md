@@ -1,3 +1,13 @@
+## 📝 script10.sql: Funkcje tekstowe i matematyczne
+
+| Manipulowanie i formatowanie danych
+
+1. Użycie funkcji CONCAT do łączenia imienia i nazwiska
+2. Użycie funkcji UPPER i LOWER do zmiany wielkości liter
+3. Użycie funkcji matematycznych (ROUND, ABS)
+4. Użycie funkcji do formatowania dat
+<br>
+
 ``` sql
 -- Użycie funkcji CONCAT do łączenia imienia i nazwiska
 SELECT id, CONCAT(imie, ' ', nazwisko) AS pelne_imie
