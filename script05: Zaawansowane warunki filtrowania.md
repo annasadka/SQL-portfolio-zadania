@@ -1,6 +1,6 @@
 ## 📝 script05.sql: Zaawansowane warunki filtrowania
 
-| Zaawansowane techniki filtrowania danych
+> *Zaawansowane techniki filtrowania danych*
 
 1. Użycie operatora BETWEEN dla wieku
 2. Użycie operatora IN dla imion klientów
