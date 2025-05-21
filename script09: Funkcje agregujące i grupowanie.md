@@ -1,6 +1,6 @@
 ## 📝 script09.sql: Funkcje agregujące i grupowanie
 
-| Analizowanie i podsumowywanie danych
+> *Analizowanie i podsumowywanie danych*
 
 Funkcje agregujące:<br>
 🔢 COUNT - liczenie rekordów <br>
