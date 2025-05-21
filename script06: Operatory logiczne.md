@@ -1,6 +1,6 @@
 ## 📝 script06.sql: Operatory logiczne
 
-| Łączenie warunków przy użyciu operatorów logicznych
+> *Łączenie warunków przy użyciu operatorów logicznych*
 
 1. Użycie AND do filtrowania wyników
 2. Użycie OR do łączenia warunków
