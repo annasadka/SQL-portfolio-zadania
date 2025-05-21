@@ -1,3 +1,12 @@
+## script17.sql: Praktyczne zadanie analityczne
+
+| Zaawansowana analiza danych sprzedażowych
+
+1. Stworzenie pełnej analizy sprzedaży
+2. Znajdowanie najlepszych klientów
+3. Znajdowanie najpopularniejszych produktów
+<br>
+
 ``` sql
 -- Stworzenie pełnej analizy sprzedaży
 -- 1. Sprzedaż według kategorii
