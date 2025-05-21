@@ -1,6 +1,6 @@
-## script11.sql: Podzapytania i widoki
+## 📝 script11.sql: Podzapytania i widoki
 
-| Zaawansowane techniki zapytań i wirtualne tabele
+> *Zaawansowane techniki zapytań i wirtualne tabele*
 
 1. Tworzenie podzapytań
 2. Tworzenie widoku dla najnowszych klientów
