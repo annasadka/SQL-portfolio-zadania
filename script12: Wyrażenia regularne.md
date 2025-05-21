@@ -1,6 +1,6 @@
-## script12.sql: Wyrażenia regularne
+## 📝 script12.sql: Wyrażenia regularne
 
-| Zaawansowane wzorce wyszukiwania
+> *Zaawansowane wzorce wyszukiwania*
 
 1. Wyszukiwanie klientów według wzorców w emailach
 2. Wyszukiwanie produktów według wzorców w nazwach
