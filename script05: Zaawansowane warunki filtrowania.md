@@ -1,3 +1,13 @@
+## 📝 script05.sql: Zaawansowane warunki filtrowania
+
+| Zaawansowane techniki filtrowania danych
+
+1. Użycie operatora BETWEEN dla wieku
+2. Użycie operatora IN dla imion klientów
+3. Użycie operatora LIKE do wyszukiwania wzorców w nazwiskach
+4. Użycie operatorów IS NULL i IS NOT NULL
+<br>
+
 ``` sql
 -- Użycie operatora BETWEEN dla wieku
 SELECT * FROM klienci
