@@ -1,11 +1,19 @@
 ## 📝 script04.sql: Podstawowe zapytania SELECT z warunkami
+> *Filtrowanie danych przy użyciu podstawowych operatorów*
 
-| Filtrowanie danych przy użyciu podstawowych operatorów
+| Operator | Opis | Przykład |
+|----------|------|----------|
+| `=` | Równość | `WHERE wiek = 25` |
+| `>` | Większe niż | `WHERE wiek > 30` |
+| `<` | Mniejsze niż | `WHERE wiek < 20` |
+| `!=` | Nierówność | `WHERE wiek != 25` |
+
+<br>
+
 1. Wyświetlanie klientów, którzy mają wiek poniżej 30 lat
 2. Wyświetlanie klientów, którzy zarejestrowali się po określonej dacie
 3. Aktualizacja wieku klientów
 4. Wyświetlanie klientów, których wiek jest różny od 25
-
 <br>
 
 ``` sql
