@@ -1,3 +1,11 @@
+## script12.sql: Wyrażenia regularne
+
+| Zaawansowane wzorce wyszukiwania
+
+1. Wyszukiwanie klientów według wzorców w emailach
+2. Wyszukiwanie produktów według wzorców w nazwach
+<br>
+
 ``` sql
 -- Wyszukiwanie klientów według wzorców w emailach
 SELECT * FROM klienci
